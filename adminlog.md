@@ -100,6 +100,13 @@ follow these two links:
 
 [install matlab in silent mode in linux](http://installfights.blogspot.com/2016/11/how-to-install-matlab-without-gui.html)
 
+Notes:
+1. use ```license_standalone.lic``` file for license.
+1. Iso files are read-only, to change the installer and activation.ini files make a copy of them to the home directory
+2. Use ```sudo``` for install
+2. When dvd2 is required just mount the second iso file on the same path
+3. After installation, copy libmwservices.so file from the crack folder to the "installation-path"/bin/glnxa64
+
 Install matlab kernel for jupyter:
 1. [Install matlab_kernel](https://github.com/Calysto/matlab_kernel)
 2. [Install MATLAB Engine API for Python](https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html)
